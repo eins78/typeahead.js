@@ -1,5 +1,5 @@
 {
-  "name": "typeahead.js",
+  "name": "@eins78/typeahead.js",
   "description": "fast and fully-featured autocomplete library",
   "keywords": [
     "typeahead",
@@ -61,8 +61,9 @@
     "yiewd": "^0.5.0"
   },
   "scripts": {
-    "test": "./node_modules/karma/bin/karma start --single-run --browsers PhantomJS"
+    "test": "./node_modules/karma/bin/karma start --single-run --browsers PhantomJS",
+    "grunt": "grunt"
   },
-  "version": "0.11.1",
+  "version": "0.11.2-pre.1+forked",
   "main": "dist/typeahead.bundle.js"
 }
